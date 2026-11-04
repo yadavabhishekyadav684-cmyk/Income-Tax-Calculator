@@ -69,6 +69,7 @@ function getSurchargeRate(taxable) {
     result.textContent = `Total Tax : ₹ ${totalTax.toLocaleString('en-IN')}`;        // ctrl+alt+4 for rupees Symbol
     // toLocaleString() --> number ko local style me text bna do
     // 'en-IN' --> style ka code(en -> English language, IN -> India)
+    form.reset();
 
     
 });
